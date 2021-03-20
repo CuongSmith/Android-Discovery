@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DISCOVERY</string>
+    <string name="MIC">Tôi có thể giúp gì cho bạn?</string>
+    <string name="MIC2">Vui lòng nhấn vào micro để kích hoạt trợ lý giọng nói</string>
+</resources>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/button_mic"
+            android:layout_width="83dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_voice"/>
+
+        <TextView
+            android:id="@+id/txt_mic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/MIC"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/MIC2"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trợ lý"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="155dp"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#DAD3D3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/button_ytb"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_youtube"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Youtobe" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Mở video sóng gió" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Mở clip doraemon" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="155dp"
+                android:orientation="vertical"
+                android:background="#DAD3D3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/button_map"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_google_map"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Chỉ đường" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Chỉ đường đến bến xe mĩ đình" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Sân bay nội bài ở đâu" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="155dp"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#DAD3D3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/buttton_music"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_music" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Nhạc" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Mở bài đắp mộ cuộc tình" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Mở nhạc em của ngày hôm qua" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="155dp"
+                android:orientation="vertical"
+                android:background="#DAD3D3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/button_food"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_maintenance_scheduler"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Ăn uống" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Tìm quán ăn phở gần đây" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Tìm quán cơm gần đây" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="155dp"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#DAD3D3">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/button_TV"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_maintenance_scheduler" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="TV online" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="VTV3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="VOV1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="155dp"
+                android:orientation="vertical"
+                android:background="#DAD3D3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/button_check"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_maintenance_scheduler" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Kiểm tra phạt nguội" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Xe mình có bị phạt nguội không" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="20dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/icon_google_voice"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:text="Kiểm tra phạt nguội biển kiểm soát 30 D12345" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
